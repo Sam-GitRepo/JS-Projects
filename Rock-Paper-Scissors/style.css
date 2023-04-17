@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+/* Center the buttons */
+button {
+  display: block;
+  margin: 5px auto;
+  padding: 5px 10px;
+}
+
+/* Style the result message */
+#result {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style the choice headings */
+h2 {
+  font-size: 1.2em;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* Style the choice spans */
+span {
+  font-weight: bold;
+}
+
+/* Style the computer choice */
+#computer-choice {
+  color: red;
+}
+
+/* Style the user choice */
+#user-choice {
+  color: blue;
+}
+
+/* Adjust layout for smaller screens */
+@media screen and (max-width: 480px) {
+  /* Center the headings */
+  h2 {
+    text-align: center;
+  }
+
+  /* Make the buttons full width */
+  button {
+    width: 100%;
+  }
+}
