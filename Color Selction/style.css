@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  background: #cdeffe;
+}
+#generated__color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color_code {
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+}
+.controller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controller button {
+  margin: 10px;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.generate_random_color {
+  background: #95f4b4;
+  color: #1b303a;
+  font-weight: 600;
+}
+.save_random_color {
+  background: #f4dc95;
+  color: #1b303a;
+  font-weight: 600;
+}
+
+#saved__color {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
