@@ -37,6 +37,7 @@ generateRandomColor.addEventListener("click", (e) => {
   }
   colorCode.innerText = color;
   colorCode.style.background = color;
+  document.body.style.backgroundColor = color;
 });
 
 saveRandomColor.addEventListener("click", (e) => {
